@@ -1,0 +1,4 @@
+name = "acquireadtech-rss"
+main = "src/index.js"
+compatibility_date = "2025-10-02"
+workers_dev = true
