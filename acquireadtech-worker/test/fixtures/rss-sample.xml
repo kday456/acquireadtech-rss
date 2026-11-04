@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Synthetic Ad Tech News (test fixture)</title>
+  <link>https://news.example.com/</link>
+  <description>Synthetic fixture. All companies and events are fictional.</description>
+  <item>
+    <title>Acme Ads Acquires Pixelshelf, a Retail Media Startup, for $45 Million</title>
+    <link>https://news.example.com/2026/11/acme-ads-acquires-pixelshelf</link>
+    <pubDate>Tue, 03 Nov 2026 14:00:00 GMT</pubDate>
+    <dc:creator>Staff</dc:creator>
+    <description><![CDATA[<p>Acme Ads said it will buy retail media platform Pixelshelf to expand into commerce media.</p>]]></description>
+    <content:encoded><![CDATA[<p>FULL ARTICLE BODY THAT MUST NEVER BE STORED. Lorem ipsum dolor sit amet.</p>]]></content:encoded>
+  </item>
+  <item>
+    <title>CTV Measurement Firm Streamlytics Raises $12M Series A</title>
+    <link>https://news.example.com/2026/11/streamlytics-series-a</link>
+    <pubDate>Mon, 02 Nov 2026 09:30:00 GMT</pubDate>
+    <description><![CDATA[Connected TV measurement company Streamlytics raised a Series A led by Example Ventures.]]></description>
+  </item>
+  <item>
+    <title>Affiliate Network LinkLoop Exploring Sale, Hires Bankers</title>
+    <link>https://news.example.com/2026/11/linkloop-exploring-sale</link>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>LinkLoop, a performance affiliate network, is exploring strategic alternatives including a sale, according to people familiar.</description>
+  </item>
+  <item>
+    <title>BidHouse Names New CEO as Founder Steps Down</title>
+    <link>https://news.example.com/2026/11/bidhouse-new-ceo</link>
+    <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+    <description>Programmatic SSP BidHouse appointed a new chief executive officer.</description>
+  </item>
+  <item>
+    <title>Mobile Ad Network TapYield Lays Off 20% of Staff</title>
+    <link>https://news.example.com/2026/11/tapyield-layoffs</link>
+    <pubDate>Sat, 31 Oct 2026 10:00:00 GMT</pubDate>
+    <description>App monetization company TapYield is cutting jobs amid restructuring.</description>
+  </item>
+  <item>
+    <title>Lead Gen Platform FormFunnel to Shut Down Operations</title>
+    <link>https://news.example.com/2026/11/formfunnel-shutdown</link>
+    <pubDate>Fri, 30 Oct 2026 10:00:00 GMT</pubDate>
+    <description>FormFunnel, a lead generation marketplace, will wind down by year end.</description>
+  </item>
+  <item>
+    <title>Ten Holiday Recipes Our Editors Love</title>
+    <link>https://news.example.com/2026/11/recipes</link>
+    <pubDate>Fri, 30 Oct 2026 08:00:00 GMT</pubDate>
+    <description>Seasonal food content.</description>
+  </item>
+  <item>
+    <title>Megacorp Agrees to Buy Global Telecom Giant in $28 Billion Deal</title>
+    <link>https://news.example.com/2026/11/megacorp-telecom</link>
+    <pubDate>Thu, 29 Oct 2026 08:00:00 GMT</pubDate>
+    <description>A large telecom merger with an advertising unit.</description>
+  </item>
+</channel>
+</rss>
