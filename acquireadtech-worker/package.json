@@ -1,13 +1,21 @@
 {
   "name": "acquireadtech-rss",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.js",
+    "daily": "node scripts/daily.js"
   },
   "devDependencies": {
     "wrangler": "^3.80.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^1.4.0"
   }
 }

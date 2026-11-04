@@ -1,0 +1,10 @@
+{
+  "hits": {
+    "total": {"value": 3},
+    "hits": [
+      {"_id": "0001234567-26-000123:ex99-1.htm", "_source": {"ciks": ["0001234567"], "display_names": ["Example AdCo Inc.  (ADCO)  (CIK 0001234567)"], "file_date": "2026-11-02", "form": "8-K", "root_forms": ["8-K"], "adsh": "0001234567-26-000123", "items": ["2.01", "9.01"], "biz_states": ["NY"]}},
+      {"_id": "0007654321-26-000045:d8k.htm", "_source": {"ciks": ["0007654321"], "display_names": ["Sample Media Holdings Corp  (CIK 0007654321)"], "file_date": "2026-11-01", "form": "8-K", "root_forms": ["8-K"], "adsh": "0007654321-26-000045", "items": ["1.01"]}},
+      {"_id": "0001111111-26-000009:d8k.htm", "_source": {"ciks": ["0001111111"], "display_names": ["Unrelated Bancorp  (CIK 0001111111)"], "file_date": "2026-11-01", "form": "8-K", "root_forms": ["8-K"], "adsh": "0001111111-26-000009", "items": ["5.02"]}}
+    ]
+  }
+}

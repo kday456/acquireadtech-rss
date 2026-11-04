@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22]
+    defaults:
+      run:
+        working-directory: acquireadtech-worker
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      # Zero runtime dependencies: tests run without npm install.
+      - run: npm test
+      - name: Offline smoke run of the daily job (fixtures only, no network)
+        run: |
+          node scripts/daily.js --out "$RUNNER_TEMP/out" --date 2026-11-04 --window 7 \
+            --feed-file test/fixtures/rss-sample.xml \
+            --feed-file test/fixtures/atom-sample.xml \
+            --edgar-file test/fixtures/edgar-sample.json
+          test -s "$RUNNER_TEMP/out/signals-2026-11-04.json"
+          head -5 "$RUNNER_TEMP/out/brief-2026-11-04.md"
